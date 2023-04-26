@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>api-cafeteria</name>
+    </assembly>
+    <members>
+        <member name="M:cafeteria.Controllers.clientController.registerClient(client.Model.Client)">
+            <summary>
+            Cadastra um novo cliente.
+            </summary>
+            <response code="200">Cliente cadastrado com sucesso!</response>
+        </member>
+        <member name="M:cafeteria.Controllers.clientController.getClient(System.Int32)">
+            <summary>
+            Recupera um cliente salvo no banco.
+            </summary>
+            <response code="200">Cliente recuperado com sucesso!</response>
+        </member>
+        <member name="M:cafeteria.Controllers.clientController.editClient(client.Model.Client)">
+            <summary>
+            Edita as informações de um cliente.
+            </summary>
+            <response code="200">Cliente editado com sucesso!</response>
+        </member>
+        <member name="M:cafeteria.Controllers.clientController.deleteClient(System.Int32)">
+            <summary>
+            Exclui um cliente cadastrado.
+            </summary>
+            <response code="200">Cliente deletado com sucesso!</response>
+        </member>
+        <member name="M:cafeteria.Controllers.coffeeController.registerCoffee(client.Model.Coffee)">
+            <summary>
+            Cadastra um novo café.
+            </summary>
+            <response code="200">Café cadastrado com sucesso!</response>
+        </member>
+        <member name="M:cafeteria.Controllers.coffeeController.getCoffee(System.Int32)">
+            <summary>
+            Recupera um café salvo no banco.
+            </summary>
+            <response code="200">Café recuperado com sucesso!</response>
+        </member>
+        <member name="M:cafeteria.Controllers.coffeeController.editCoffee(client.Model.Coffee)">
+            <summary>
+            Edita as informações de um café.
+            </summary>
+            <response code="200">Café editado com sucesso!</response>
+        </member>
+        <member name="M:cafeteria.Controllers.coffeeController.deleteCoffee(System.Int32)">
+            <summary>
+            Exclui um café cadastrado.
+            </summary>
+            <response code="200">Café deletado com sucesso!</response>
+        </member>
+        <member name="M:cafeteria.Controllers.loginController.validateLogin(loginDTO)">
+            <summary>
+            Loga o usuário.
+            </summary>
+            <response code="200">Usuário logado com sucesso!</response>
+        </member>
+        <member name="M:cafeteria.Controllers.sellerController.registerSeller(client.Model.Seller)">
+            <summary>
+            Cadastra um novo vendedor.
+            </summary>
+            <response code="200">Vendedor cadastrado com sucesso!</response>
+        </member>
+        <member name="M:cafeteria.Controllers.sellerController.getSeller(System.Int32)">
+            <summary>
+            Recupera um vendedor salvo no banco.
+            </summary>
+            <response code="200">Vendedor recuperado com sucesso!</response>
+        </member>
+        <member name="M:cafeteria.Controllers.sellerController.editSeller(client.Model.Seller)">
+            <summary>
+            Edita as informações de um vendedor.
+            </summary>
+            <response code="200">Vendedor editado com sucesso!</response>
+        </member>
+        <member name="M:cafeteria.Controllers.sellerController.deleteSeller(System.Int32)">
+            <summary>
+            Exclui um vendedor cadastrado.
+            </summary>
+            <response code="200">Vendedor deletado com sucesso!</response>
+        </member>
+        <member name="T:apicafeteria.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:apicafeteria.Migrations.clientModelAndClientTable">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.clientModelAndClientTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.clientModelAndClientTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.clientModelAndClientTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:apicafeteria.Migrations.phoneFieldToString">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.phoneFieldToString.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.phoneFieldToString.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.phoneFieldToString.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:apicafeteria.Migrations.houseNumberToString">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.houseNumberToString.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.houseNumberToString.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.houseNumberToString.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:apicafeteria.Migrations.colummsToClients">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.colummsToClients.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.colummsToClients.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.colummsToClients.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:apicafeteria.Migrations.nullValueToDocument">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.nullValueToDocument.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.nullValueToDocument.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.nullValueToDocument.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:apicafeteria.Migrations.clientIdProperty">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.clientIdProperty.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.clientIdProperty.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.clientIdProperty.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:apicafeteria.Migrations.coffeProperties">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.coffeProperties.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.coffeProperties.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.coffeProperties.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:apicafeteria.Migrations.coffeeComplete">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.coffeeComplete.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.coffeeComplete.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.coffeeComplete.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:apicafeteria.Migrations.sellerPropertiesAndFiles">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.sellerPropertiesAndFiles.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.sellerPropertiesAndFiles.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.sellerPropertiesAndFiles.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:apicafeteria.Migrations.sellerIdAsProductFK">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.sellerIdAsProductFK.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.sellerIdAsProductFK.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.sellerIdAsProductFK.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:apicafeteria.Migrations.sellerIdAsAKey">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.sellerIdAsAKey.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.sellerIdAsAKey.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apicafeteria.Migrations.sellerIdAsAKey.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
